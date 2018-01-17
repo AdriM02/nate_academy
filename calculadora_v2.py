@@ -15,6 +15,7 @@ elif tipo_operacion == "sumar":
     resultado = int(primer_numero + segundo_numero)
 elif tipo_operacion == "restar":
     resultado = int(primer_numero - segundo_numero)
+# Me aburría:
 elif tipo_operacion == "multiplicar" and segundo_numero == 5:
     print ("Por el culo te la ...")
 
