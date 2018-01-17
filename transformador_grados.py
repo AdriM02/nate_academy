@@ -3,8 +3,8 @@ resultado = None
 simbolo = None
 numero_usuario = None
 
-while transformacion != str("FARENHEIT") and transformacion != str("CELSIUS"):
-    transformacion = str(input("Para: Celsius a Farenheit (Celsius)    Farenheit a Celsius (Farenheit) -> ")).upper()
+while transformacion != ("FARENHEIT") and transformacion != ("CELSIUS"):
+    transformacion = (input("Para: Celsius a Farenheit (Celsius)    Farenheit a Celsius (Farenheit) -> ")).upper()
 
 numero_usuario = float(input("Número({}) a transformar: ".format(transformacion)))
 
