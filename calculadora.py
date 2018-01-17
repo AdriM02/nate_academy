@@ -3,6 +3,7 @@ primer_numero = int(input ("Primer número: "))
 segundo_numero = int(input ("Segundo número: "))
 resultado = str("Error")
 
+
 if tipo_operacion == "multiplicar":
     resultado = int(primer_numero * segundo_numero)
 elif tipo_operacion == "sumar":
