@@ -4,7 +4,7 @@ simbolo = None
 numero_usuario = None
 
 while transformacion != ("FARENHEIT") and transformacion != ("CELSIUS"):
-    transformacion = (input("Para: Celsius a Farenheit (Celsius)    Farenheit a Celsius (Farenheit) -> ")).upper()
+    transformacion = (input("Para: Celsius a Farenheit (Escribe: Celsius)    Farenheit a Celsius (Escribe: Farenheit) -> ")).upper()
 
 numero_usuario = float(input("Número({}) a transformar: ".format(transformacion)))
 
