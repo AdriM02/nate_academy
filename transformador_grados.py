@@ -17,5 +17,7 @@ if transformacion == ("FARENHEIT"):
     simbolo = "C"
 elif transformacion == ("CELSIUS"):
     simbolo = "F"
+
 resultado = round(resultado,1)
+
 print("Tu resultado es {}º{}".format(resultado, simbolo))
